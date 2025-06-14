@@ -37,8 +37,8 @@ export function NavBar(){
           }
         >
           <DropdownHeader>
-            <span className="block text-sm">Bonnie Green</span>
-            <span className="block truncate text-sm font-medium">name@flowbite.com</span>
+            <span className="block text-sm">Rodrigo Roldan</span>
+            <span className="block truncate text-sm font-medium">rcroldan@impresion-a.com</span>
           </DropdownHeader>
           <DropdownItem>Dashboard</DropdownItem>
           <DropdownItem>Settings</DropdownItem>
