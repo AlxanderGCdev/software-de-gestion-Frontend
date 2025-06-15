@@ -1,19 +1,18 @@
 
 import { Table, TableBody, TableCell, TableHead, TableHeadCell, TableRow } from "flowbite-react";
 
-export function TablaClientes() {
+export function TablaCeditos() {
   return (
-    <>
-      
-      <div className="m-7">            
-      <Table>        
-        <TableHead>          
+    <div className="m-7">
+      <Table>
+        <TableHead>
           <TableRow>
             <TableHeadCell>Nombre y Apellido</TableHeadCell>
             <TableHeadCell>Provincia</TableHeadCell>
             <TableHeadCell>Dispositivos</TableHeadCell>
-            <TableHeadCell>Credito</TableHeadCell>
+            <TableHeadCell>Credito</TableHeadCell>                       
             <TableHeadCell>
+                Acccion
               <span className="sr-only">Edit</span>
             </TableHeadCell>
           </TableRow>
@@ -59,6 +58,5 @@ export function TablaClientes() {
         </TableBody>
       </Table>
     </div>
-    </>
   );
 }

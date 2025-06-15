@@ -10,9 +10,9 @@ import PreciosMasivos from "./views/VistaPreciosMasivos.jsx"
 import NotFound from "./views/NotFound.jsx"
 import Creditos from "./views/Creditos.jsx"
 import Graficos from "./views/Graficos.jsx"
-import { NavBar } from "./components/Navbar.jsx"
 import ClienteNuevo from "./views/ClienteNuevo.jsx"
 import CreditoNuevo from "./views/CreditoNuevo.jsx"
+
 
 
 
@@ -20,8 +20,7 @@ import CreditoNuevo from "./views/CreditoNuevo.jsx"
 const Layout = () => {
   return (
     <>
-        <BrowserRouter>
-            <NavBar/>
+        <BrowserRouter>                        
             <Routes>
                 <Route path="/" element={<Admin/>} />
                 <Route path="/clientes" element={<Clientes />} />

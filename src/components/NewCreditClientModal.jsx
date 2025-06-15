@@ -36,7 +36,7 @@ const NewCreditClientModal = () => {
   };
 
   return (
-    <div className="pl-7">
+    <div className='ml-4'>
       <button
         onClick={() => setIsOpen(true)}
         className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg font-medium transition-colors"

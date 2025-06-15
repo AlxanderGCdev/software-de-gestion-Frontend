@@ -1,12 +1,12 @@
-import React from 'react'
 import PreciosMasivos from '../components/PreciosMasivos'
+import { NavBar } from '../components/NavBar'
 
 const VistaPreciosMasivos = () => {
   return (
-    <div>
-      <h2 className="text-4xl text-white text-center mt-7">Precios Masivos</h2>
+    <>
+      <NavBar/>      
       <PreciosMasivos/> 
-    </div>
+    </>
   )
 }
 

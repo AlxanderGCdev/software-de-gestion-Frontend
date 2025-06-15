@@ -20,7 +20,7 @@ import { Link } from "react-router";
 
 export function SidebarAdmin() {
   return (
-    <Sidebar>
+    <Sidebar className="h-screen">
       <SidebarItems>
         <SidebarItemGroup>
           <SidebarItem icon={HiChartPie}>
@@ -38,12 +38,11 @@ export function SidebarAdmin() {
           <SidebarItem icon={HiShoppingBag}>
             <Link to="/productos">Productos</Link>
           </SidebarItem>
-          <SidebarItem icon={HiArrowSmRight}><Link to="login">Sign In</Link></SidebarItem>
-          <SidebarItem icon={HiTable}>Sign Up</SidebarItem>
         </SidebarItemGroup>
         <SidebarItemGroup>
-          <SidebarItem icon={HiViewBoards}>Documentation</SidebarItem>
-          <SidebarItem icon={BiBuoy}>Help</SidebarItem>
+          
+          <SidebarItem icon={HiArrowSmRight}><Link to="login">Salir</Link></SidebarItem>
+          
         </SidebarItemGroup>
       </SidebarItems>
     </Sidebar>

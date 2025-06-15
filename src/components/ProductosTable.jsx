@@ -98,7 +98,7 @@ export default function ProductosTable() {
             </thead>
             <tbody className="bg-gray-600">
               {productos.map((producto, index) => (
-                <tr key={producto.id} className="border-b border-gray-500 hover:bg-gray-50 transition-colors">
+                <tr key={producto.id} className="border-b border-gray-500 hover:bg-gray-500 transition-colors">
                   <td className="px-4 py-3 text-sm text-white border-r border-gray-500">{producto.id}</td>
                   <td className="px-4 py-3 text-sm font-medium text-white border-r border-gray-500">{producto.cod}</td>
                   <td className="px-4 py-3 text-sm font-mono text-white border-r border-gray-500">{producto.codQR}</td>

@@ -8,9 +8,7 @@ import {
   DropdownDivider,
   DropdownHeader,
   DropdownItem,
-  Navbar,
-  NavbarCollapse,  
-  NavbarToggle,
+  Navbar  
 } from "flowbite-react";
 import { Link } from "react-router";
 import { IoIosNotificationsOutline } from "react-icons/io";
@@ -40,17 +38,15 @@ export function NavBar(){
             <span className="block text-sm">Rodrigo Roldan</span>
             <span className="block truncate text-sm font-medium">rcroldan@impresion-a.com</span>
           </DropdownHeader>
-          <DropdownItem>Dashboard</DropdownItem>
-          <DropdownItem>Settings</DropdownItem>
-          <DropdownItem>Earnings</DropdownItem>
+          <DropdownItem>Menu</DropdownItem>
+          <DropdownItem>Configuracion</DropdownItem>
+          <DropdownItem>Ganancias</DropdownItem>
           <DropdownDivider />
-          <DropdownItem>Sign out</DropdownItem>
+          <DropdownItem>Salir</DropdownItem>
         </Dropdown>
-        <NavbarToggle />
-      </div>
-      <NavbarCollapse>
         
-      </NavbarCollapse>
+        
+      </div>      
     </Navbar>
   );
 }

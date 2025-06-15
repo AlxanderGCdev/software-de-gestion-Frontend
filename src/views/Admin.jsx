@@ -1,17 +1,18 @@
 
-import { BarrasDeEstados } from "../components/BarrasDeEstados"
-import CreditsModal from "../components/CreditsModal"
+// import Aside from "../components/Aside"
+
+import { NavBar } from "../components/NavBar"
 import { SidebarAdmin } from "../components/SidebarAdmin"
+
+
 
 const Admin = () => {
   return (
-    <>
-        <BarrasDeEstados />
+    <>       
+        {/* <Aside/>         */}
+        <NavBar/>
+        <SidebarAdmin/>
         
-        <div className="mt-10">
-        <SidebarAdmin />
-        
-        </div>
     </>
   )
 }
